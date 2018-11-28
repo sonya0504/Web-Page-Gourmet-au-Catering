@@ -1,8 +1,5 @@
 *.class
 *.iml
 target
-^0
-^X
+.idea
 git@github.com:sonya0504/Web-Page-Gourmet-au-Catering.git
-
-
