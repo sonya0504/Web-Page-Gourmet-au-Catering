@@ -1,86 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Gourmet au Catering</title>
+    <link rel="stylesheet" href="css_bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 </head>
-<body>
-<nav>
-    <div class="logo">Gourmet au Catering</div>
-    <ul>
-        <li>About</li>
-        <li>Menu</li>
-        <li>Contact</li>
-    </ul>
-</nav>
-<header>
-    <h1>Le Catering</h1>
-</header>
-<section>
-    <div class="row">
-        <article>
-            <figure>
-                <img src="images/blueberry.jpg">
-            </figure>
-        </article>
-        <article>
-            <h2>About Catering</h2>
-            <h3>Tradition since 1889</h3>
-            <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span>seasonal</span> ingredients.</p>
-            <p class="second_p">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </article>
-    </div>
-    <div class="row">
-    <hr>
-        <article class="menu">
-            <h2>Our Menu</h2>
-            <h3>Bread Basket</h3>
-            <p>Assortment of fresh baked fruit breads and mu</p>
-            <h3>Honey Almond Granola with Fruits</h3>
-            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
-            <h3>Belgian Waffle</h3>
-            <p>Vanilla flavored batter with malted flour 7.50</p>
-            <h3>Scrambled eggs</h3>
-            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
-            <h3>Blueberry Pancakes</h3>
-            <p>With syrup, butter and lots of berries 8.50</p>
-        </article>
-        <article>
-        <figure class="menu_img">
-            <img src="images/mango-cups.jpg">
-        </figure>
-    </article>
-    </div>
-    <div class="row">
-    <hr>
-        <article class="contact">
-            <h2>Contact</h2>
-            <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
-            <h3>Catering Service, 42nd Living St, 43043 New York, NY</h3>
-            <p class="last_p">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
-            <form>
-                <label>
-                    <input type="text" placeholder="Name">
-                </label>
-                <label>
-                    <input type="text" placeholder="How many people">
-                </label>
-                <label>
-                    <input type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00">
-                    <input type="text" placeholder="Message\Special requirements">
-                </label>
-                <label>
-                    <input type="submit" name="sendmessage" value="Send message">
-                </label>
-            </form>
-        </article>
-    </div>
-</section>
 
-<footer>
-    Powered by w3.css
-</footer>
+<body>
+    <!-- <div class="container-fluid"> -->
+    <nav>
+        <div class="logo">Gourmet au Catering</div>
+        <ul>
+            <li>About</li>
+            <li>Menu</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Le Catering</h1>
+    </header>
+    <!-- </div> -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="main-container">
+                    <article class="col-sm-6">
+                        <figure>
+                            <img src="images/blueberry.jpg" alt="Blueberry cakes">
+                        </figure>
+                    </article>
+                    <article class="col-sm-6">
+                        <h2>About Catering</h2>
+                        <h3>Tradition since 1889</h3>
+                        <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                            nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate
+                            velit esse cillum dolore eu fugiat nulla pariatur.We only use <span>seasonal</span>
+                            ingredients.</p>
+                        <p class="second_p">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                            deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                            temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </article>
+                </div>
+                <div>
+                    <hr>
+                    <div class="main-container">
+                        <article class="col-sm-6 menu">
+                            <h2>Our Menu</h2>
+                            <h3>Bread Basket</h3>
+                            <p>Assortment of fresh baked fruit breads and mu</p>
+                            <h3>Honey Almond Granola with Fruits</h3>
+                            <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                            <h3>Belgian Waffle</h3>
+                            <p>Vanilla flavored batter with malted flour 7.50</p>
+                            <h3>Scrambled eggs</h3>
+                            <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                            <h3>Blueberry Pancakes</h3>
+                            <p>With syrup, butter and lots of berries 8.50</p>
+                        </article>
+                        <article class="col-sm-6">
+                            <figure class="menu_img">
+                                <img src="images/mango-cups.jpg" alt="Mango cups">
+                            </figure>
+                        </article>
+                    </div>
+                </div>
+                <div>
+                    <hr>
+                    <article class="contact">
+                        <h2>Contact</h2>
+                        <p>We offer full-service catering for any event, large or small. We understand your needs and
+                            we will cater the food to satisfy the biggerst criteria of them all, both look and taste.
+                            Do not hesitate to contact us.</p>
+                        <h3>Catering Service, 42nd Living St, 43043 New York, NY</h3>
+                        <p class="last_p">You can also contact us by phone 00553123-2323 or email
+                            catering@catering.com, or you can send us a message here:</p>
+                        <form>
+                            <label>
+                                <input type="text" placeholder="Name">
+                            </label>
+                            <label>
+                                <input type="text" placeholder="How many people">
+                            </label>
+                            <label>
+                                <input type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00">
+                                <input type="text" placeholder="Message\Special requirements">
+                            </label>
+                            <label>
+                                <input type="submit" name="sendmessage" value="Send message">
+                            </label>
+                        </form>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Powered by Sonia Jarczka (clone from template w3.css)
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

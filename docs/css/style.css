@@ -74,27 +74,31 @@ h1 {
     letter-spacing: 15px;
 }
 
-section {
+/* section {
     margin-right: 50px;
     margin-left: 50px;
-}
+} */
+
+/* figure {
+    margin: 10px;
+} */
 
 img {
-    width: 500px;
-    height: 575px;
-    padding-left: 50px;
+    width: 100%;
+    /* height: 575px; */
+    /* padding-left: 50px;
     margin-right: 40px;
-    margin-bottom: 50px;
-    float: right;
+    margin-bottom: 50px; */
+    /* float: right;*/
 }
-
+/* 
 article {
-    float: left;
-    border: none;
+   float: left;
+   border: none;
     width: 50%;
-}
+} */
 
-.row {
+/* .row {
     margin-right: 6em;
     margin-left: 10em;
 }
@@ -103,16 +107,16 @@ article {
     clear: both;
     content: " ";
     display: block;
-}
+} */
 
 h2 {
     font-size: 2em;
     letter-spacing: .2em;
     font-weight: normal;
     text-align: center;
-    margin-top: 8px;
+    /* margin-top: 8px;
     margin-bottom: 20px;
-    padding-right: 60px;
+    padding-right: 60px; */
 }
 
 h3 {
@@ -120,15 +124,15 @@ h3 {
     letter-spacing: .2em;
     font-weight: normal;
     text-align: center;
-    margin-bottom: 30px;
-    padding-right: 70px;
+    /* margin-bottom: 30px;
+    padding-right: 70px; */
 }
 
 p {
     font-size: 15px;
     letter-spacing: .1em;
     line-height: 25px;
-    padding-right: 7em;
+    /* padding-right: 7em; */
 }
 
 .second_p {
@@ -140,6 +144,11 @@ span {
     background-color: lightgrey;
 }
 
+.main-container img {
+    width: 100%;
+    height: auto;
+}
+
 hr {
     background-color: lightgrey;
     height: 1px;
@@ -148,33 +157,33 @@ hr {
     margin-bottom: 50px;
 }
 
-.menu_img {
+/* .menu_img {
     margin-left: 10px;
     margin-right: 70px;
-}
+} */
 
 .menu h3 {
     font-size: 20px;
     text-align: left;
     letter-spacing: 3px;
-    margin-bottom: 10px;
-    margin-top: 15px;
-    margin-left: 40px;
+    /* margin-bottom: 10px; */
+    /* margin-top: 15px; */
+    /* margin-left: 40px; */
 }
 
 .menu p {
     font-size: 15px;
     color: grey;
-    margin-left: 40px;
-    margin-right: 10px;
-    margin-bottom: 40px;
+    /* margin-left: 40px; */
+    /* margin-right: 10px; */
+    /* margin-bottom: 40px; */
     letter-spacing: 0;
     padding-right: 1em;
 }
 
-.menu img {
+/* .menu img {
     margin-left: 40px;
-}
+} */
 
 .contact {
     width: 100%;
